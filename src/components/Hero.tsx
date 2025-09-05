@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import heroBackground from "@/assets/hero-background.jpg";
 
 const Hero = () => {
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
@@ -17,7 +16,7 @@ const Hero = () => {
       {/* Background */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBackground})` }}
+        style={{ backgroundImage: `url(/lovable-uploads/1ba052a5-f4cb-4975-b68f-d865c22df9b6.png)` }}
       >
         <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
       </div>
